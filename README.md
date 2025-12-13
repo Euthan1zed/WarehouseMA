@@ -1,13 +1,13 @@
 # 🏢 WarehouseMA - Phần mềm Quản lý Kho Hàng trong Tòa nhà
 
 **Đồ án học phần Công nghệ Phần mềm**  
-Trường Đại học Tôn Đức Thắng (TDTU) - 2024  
+Trường Đại học Tôn Đức Thắng (TDTU) - 2024
 
 ---
 
 ## ℹ️ Tổng quan Dự án
 
-**WarehouseMA** là ứng dụng quản lý kho hàng hóa, vật tư, công cụ, và dụng cụ trong tòa nhà.  
+**WarehouseMA** là ứng dụng quản lý kho hàng hóa, vật tư, công cụ và dụng cụ trong tòa nhà.  
 Hệ thống được phát triển để tối ưu hóa quy trình quản lý và vận hành, bao gồm hai loại kho chính:
 
 - **Kho Nội Bộ**: Dành cho việc vận hành tòa nhà  
@@ -15,12 +15,13 @@ Hệ thống được phát triển để tối ưu hóa quy trình quản lý v
 
 Phần mềm được phát triển theo quy trình đầy đủ gồm: **Phân tích**, **Thiết kế**, **Lập trình**, và **Kiểm thử**.
 
-> ⚠️ **Lưu ý:**  
-> Dự án hiện **không còn chạy được** do:  
-> 1. Hosting cơ sở dữ liệu MySQL đã ngừng hoạt động.  
-> 2. API Google Form dùng để nhận yêu cầu đăng ký/xuất hàng đã bị ngắt kết nối.  
+> ⚠️ **Lưu ý**
 >
-> Tuy nhiên, **toàn bộ mã nguồn, tài liệu phân tích và thiết kế hệ thống** vẫn được giữ nguyên để minh chứng quy trình làm việc và kỹ năng chuyên môn.
+> Dự án hiện **không còn chạy ổn định đầy đủ** do:
+> 1. Hosting cơ sở dữ liệu MySQL đã ngừng hoạt động.
+> 2. API Google Form (dùng để nhận yêu cầu đăng ký/xuất hàng) đã bị ngắt kết nối.
+>
+> Tuy nhiên, **toàn bộ mã nguồn + tài liệu phân tích/thiết kế** vẫn được giữ nguyên để minh chứng quy trình làm việc và kỹ năng chuyên môn.
 
 ---
 
@@ -29,23 +30,24 @@ Phần mềm được phát triển theo quy trình đầy đủ gồm: **Phân 
 - **Ngôn ngữ:** C#  
 - **Nền tảng:** .NET Framework (WinForms)  
 - **Cơ sở dữ liệu:** MySQL / SQL Server  
-- **Công cụ hỗ trợ:**  
-  - Figma (thiết kế giao diện)  
-  - Draw.io (vẽ sơ đồ UML)  
-- **Kỹ thuật đặc biệt:**  
-  - Tích hợp **Google Forms API** để tự động nhận yêu cầu nhập/xuất hàng  
+- **Công cụ hỗ trợ:**
+  - Figma (thiết kế giao diện)
+  - Draw.io (vẽ sơ đồ UML)
+- **Kỹ thuật đặc biệt:**
+  - Tích hợp **Google Forms API** để tự động nhận yêu cầu nhập/xuất hàng
   - Sử dụng **QR Code** để kiểm kê hàng hóa nhanh chóng
 
 ---
 
 ## 🧠 Vai trò và Đóng góp Cá nhân
 
-**Vai trò chính:** Business Analyst (BA) & Main Developer  
+**Vai trò chính:** Business Analyst (BA) & Main Developer
 
 | Lĩnh vực | Đóng góp |
 | :--- | :--- |
 | **Business Analyst (BA)** | Thu thập yêu cầu người dùng, viết **SRS** và **BRD**, thiết kế **ERD** và các sơ đồ **UML** (Use Case, Class, Activity, Sequence, State). Phân tích nghiệp vụ và xây dựng thuật toán tối ưu vị trí kho. |
 | **Developer (Chính)** | Thiết kế và lập trình các module xử lý nghiệp vụ (Quản lý Kho, Yêu cầu, Đơn hàng, Kiểm kê). Tuân thủ coding convention và tối ưu hiệu suất xử lý dữ liệu. |
+
 ---
 
 ## 🛠️ Tính năng Chính
@@ -63,6 +65,44 @@ Phần mềm được phát triển theo quy trình đầy đủ gồm: **Phân 
 
 - **Kiểm Kê & Báo Cáo:**  
   Cung cấp công cụ kiểm kê nhanh, xuất báo cáo thống kê định kỳ dưới dạng **PDF** hoặc **Excel**.
+
+---
+
+## 📁 Cấu trúc Thư mục
+
+```text
+WarehouseMA/
+├─ Document/                 # Tài liệu đồ án (PDF)
+├─ Source/
+│  └─ WarehouseMA/
+│     ├─ WarehouseMA.sln
+│     ├─ BLL/                # Business Logic Layer
+│     ├─ DAL/                # Data Access Layer
+│     ├─ DTO/                # Data Transfer Objects
+│     ├─ Database/           # Script/SQL dump
+│     ├─ WarehouseMA/        # WinForms UI (Forms, Program.cs, Properties)
+│     └─ image/              # Tài nguyên ảnh UI
+└─ README.md
+```
+
+---
+
+## 🚀 Hướng dẫn Build/Run (tham khảo)
+
+> Dự án dùng **.NET Framework WinForms**. Bạn có thể mở solution bằng **Visual Studio** hoặc build bằng **MSBuild**.
+
+### Cách 1: Visual Studio
+1. Mở file: `Source/WarehouseMA/WarehouseMA/WarehouseMA.sln`
+2. Set startup project: `WarehouseMA`
+3. Run (F5)
+
+### Cách 2: MSBuild (không cần mở Visual Studio UI)
+> Yêu cầu: đã cài **Visual Studio Build Tools** hoặc Visual Studio có MSBuild.
+
+```powershell
+cd Source/WarehouseMA/WarehouseMA
+msbuild .\WarehouseMA.sln /t:Build /p:Configuration=Release
+```
 
 ---
 
@@ -91,5 +131,3 @@ Phần mềm được phát triển theo quy trình đầy đủ gồm: **Phân 
 
 > Dự án được thực hiện với mục tiêu học tập và rèn luyện kỹ năng chuyên môn trong phân tích và phát triển phần mềm thực tế.  
 > Toàn bộ mã nguồn và tài liệu được công khai phục vụ mục đích tham khảo học thuật.
-
----
