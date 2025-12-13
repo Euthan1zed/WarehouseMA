@@ -1,0 +1,60 @@
+# =============================
+# Build outputs
+# =============================
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/x64/
+**/x86/
+**/AnyCPU/
+
+# =============================
+# Visual Studio / IDE
+# =============================
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.log
+*.pdb
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# ReSharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# =============================
+# NuGet
+# =============================
+# Nếu bạn dùng packages.config + folder packages/ (đúng như dự án đang có)
+Source/WarehouseMA/packages/
+**/packages/
+
+# NuGet package artifacts
+*.nupkg
+*.snupkg
+
+# =============================
+# Publish / artifacts
+# =============================
+*.exe
+*.dll
+
+# =============================
+# Local database files (nếu có)
+# =============================
+*.mdf
+*.ldf
+
+# =============================
+# OS junk
+# =============================
+.DS_Store
+Thumbs.db
